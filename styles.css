@@ -1,0 +1,152 @@
+body{
+    font-family: Tahoma;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
+}
+#menu_top{
+    background: #141414;
+    height: 40px;
+}
+#banner {  
+    height: auto;
+    width: 1000px;
+}
+
+#main #left {
+    width: 700px;
+    float: left;
+    min-height: 400px ;
+    
+}
+
+#main #right {
+    width:300px;
+    float :left;
+    min-height: 400px;
+}
+#footer{
+    background: #000;
+    width: 1000px;
+    text-align: center;
+    height: 60px;
+    color: #FFF;
+    clear: left;
+    line-height: 60px;
+
+}
+#menu_top ul{
+    margin: 0px;
+    padding: 0px;
+}
+#menu_top ul  li{
+    list-style: none;
+    float: left;
+    
+}
+#menu_top ul  li  a{
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height:40px;
+    color: #FFF;
+    padding: 0px 44px 0px 44px;
+    border-right: 1px solid #f1f1f1;
+}
+#menu_top ul  li a:hover{
+    background: orange;
+    color:red;
+    transition: ease-in 0.35s;
+    -moz-transition: ease-in 0.35s;
+    -webkit-transition: ease-in 0.35ss ;
+
+}
+#banner img{
+    width: 1000px; 
+}
+#main #left ul {
+    margin: 0px;
+    padding: 0px;
+}
+#main #left ul li {
+    list-style: none;
+    clear: left; 
+    border-bottom: 2px solid #ccc;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#main #left ul li img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+#main #left ul li h2:hover{
+    font-size: 16px;
+    margin-top: 0px;
+    color: blue;
+}
+
+#main {
+    margin-top: 10px;
+}
+#main #right .menu_right ul{
+    margin: -20px 0px 0px 0px;
+    padding: 0px;
+    border: 1px solid #ccc;
+}
+#main #right .menu_right ul li{
+    list-style: none;
+}
+#main #right .menu_right ul li a{
+    display: block;
+    text-decoration: none;
+    line-height: 35px;
+    border-bottom: 1px solid #ccc;
+    background: url(check.jpg) no-repeat 2px;
+    text-indent: 30px;
+    color: black;
+    height: 40px;
+    font-size: 14px;
+}
+#main #right .menu_right ul li a:hover{
+    color: orange;
+}
+#main #right .menu_right h3 {
+    background: burlywood 
+    url(icon.jpg) no-repeat 3px;
+    height: 40px;
+    margin-top: 0px;
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+    text-indent: 40px;
+    
+}
+#menu_top ul >li > ul >li >a {
+    display: none;
+    margin: 0px;
+    padding: 0px;
+}
+#menu_top ul > li:hover >ul > li >a {
+    display: block;
+}
+#submenu ul{
+    width: 250px;
+    background: red;
+    min-height: 150px;
+    display: none;
+}
+#submenu ul li{
+    list-style: none;
+}
+#submenu ul li a {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    border-top: 1px solid #ccc;
+    line line-height: 40px;
+    text-indent:10px;
+}
