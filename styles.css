@@ -26,14 +26,13 @@ body{
     min-height: 400px;
 }
 #footer{
-    background: #000;
+    background:brown;
     width: 1000px;
     text-align: center;
     height: 60px;
-    color: #FFF;
+    color:black;
     clear: left;
     line-height: 60px;
-
 }
 #menu_top ul{
     margin: 0px;
